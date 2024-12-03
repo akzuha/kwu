@@ -52,6 +52,13 @@
   --contrast-color: #2a2727;
 }
 
+.grey-background {
+  --background-color: #808080;  
+  --default-color: #000000;
+  --surface-color: #e1e0c2;
+  --contrast-color: #e1e0c2;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
