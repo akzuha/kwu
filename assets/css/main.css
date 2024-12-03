@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #1c1919;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
@@ -53,10 +53,8 @@
 }
 
 .grey-background {
-  --background-color: #808080;  
-  --default-color: #000000;
-  --surface-color: #e1e0c2;
-  --contrast-color: #e1e0c2;
+  --background-color: #1e1a1a; 
+  --surface-color: #ffffff;
 }
 
 /* Smooth scroll */
