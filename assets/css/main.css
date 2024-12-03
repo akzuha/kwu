@@ -1408,9 +1408,15 @@ section,
 }
 
 .team .team-member .social a:hover {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  color: #000000; /* Warna teks menjadi hitam */
+  background: linear-gradient(135deg, #e0e0e0, #a0a0a0); /* Gradien abu-abu terang */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan yang lebih tajam */
+  transform: scale(1.1); /* Memberikan efek membesar */
+  border: 1px solid #000000; /* Menambahkan border hitam */
+  transition: all 0.3s ease-in-out; /* Transisi halus */
 }
+
+
 
 .team .team-member .social i {
   font-size: 18px;
